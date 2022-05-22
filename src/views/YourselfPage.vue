@@ -96,7 +96,6 @@ export default {
         store.commit("resetPeronalInfo");
         store.commit("changePage", ErrorPage);
       } else {
-        console.log(invalid.value)
         if(!invalid.value) {
           store.commit("changePage", SummaryPage);
         }
